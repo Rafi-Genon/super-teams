@@ -1,0 +1,29 @@
+.team-badge{
+    width: 200px;
+    margin: auto;
+    line-height:350px ;
+}
+.bg-img{
+    height: 350px;
+    background-image: url("../../Images/bg.jpg");
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.team-profile{
+    background-color: #4f24e9;
+    /* padding: 2em; */
+    /* margin: auto; */
+    /* margin-top: 2em; */
+    border-radius: 1em;
+}
+.team-info{
+    color: white;
+}
+/* .team-image{
+    width: 30%;
+} */
+img{
+    width: 100%;
+}

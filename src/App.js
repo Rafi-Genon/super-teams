@@ -12,7 +12,7 @@ function App() {
     <div>
       <Router>
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
             <Home />
           </Route>
 
@@ -24,6 +24,9 @@ function App() {
             <TeamDetails></TeamDetails>
           </Route>
 
+          <Route path='*'>
+            <p>404 mc nai ga</p>
+          </Route>
         </Switch>
       </Router>
     </div>

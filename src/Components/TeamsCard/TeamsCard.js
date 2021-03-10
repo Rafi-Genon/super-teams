@@ -6,9 +6,10 @@ const TeamsCard = (props) => {
     const { idTeam, strGender, strTeamBadge, strTeam } = props.team
     const history = useHistory()
     return (
-        <div className="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div className="col-lg-3 col-md-4 col-sm-12 my-3">
             {/* <Card style={{ width: '18rem' }}>  */}
             <Card>
+                {/* <div style={{width='50%',}}> */}
                 <Card.Img variant="top" src={strTeamBadge} />
                 <Card.Body>
                     <Card.Title>{strTeam}</Card.Title>

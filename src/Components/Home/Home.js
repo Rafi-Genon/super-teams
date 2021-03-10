@@ -10,11 +10,16 @@ const Home = () => {
         , [])
     console.log(teams)
     return (
-        <div className="container">
-            <div className="row">
-                {
-                    teams.map(team => <TeamsCard team={team}></TeamsCard>)
-                }
+        <div>
+            <div className="bg-img d-flex align-items-center justify-content-center">
+                <h1 className="text-white">Super Teams</h1>
+            </div>
+            <div className="container">
+                <div className="row">
+                    {
+                        teams.map(team => <TeamsCard team={team} key={team.idTeam}></TeamsCard>)
+                    }
+                </div>
             </div>
         </div>
     );
