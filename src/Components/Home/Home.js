@@ -10,7 +10,7 @@ const Home = () => {
         , [])
     console.log(teams)
     return (
-        <div>
+        <div className="bg-color">
             <div className="bg-img d-flex align-items-center justify-content-center">
                 <h1 className="text-white">Super Teams</h1>
             </div>

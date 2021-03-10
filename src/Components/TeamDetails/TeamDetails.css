@@ -1,3 +1,8 @@
+.bg-color{
+    /* background-color: rgb(14, 10, 42); */
+    /* background-color: rgba(238, 130, 238, 0.596); */
+    background-color: rgb(255, 255, 0);
+}
 .team-badge{
     width: 200px;
     margin: auto;
@@ -12,7 +17,7 @@
     background-position: center; 
 }
 .team-profile{
-    background-color: #4f24e9;
+    background-color: rgb(58, 66, 255);
     /* padding: 2em; */
     /* margin: auto; */
     /* margin-top: 2em; */
@@ -26,4 +31,12 @@
 } */
 img{
     width: 100%;
+}
+.social-media{
+    width: 30%;
+    margin:auto;
+}
+.icon-style{
+    font-size: 50px;
+    color: red;
 }
