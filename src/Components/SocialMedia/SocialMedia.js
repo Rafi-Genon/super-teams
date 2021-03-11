@@ -1,5 +1,6 @@
 import React from 'react';import { faYoutube, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './SocialMedia.css'
 
 const SocialMedia = (props) => {
     const { strTwitter, strYoutube, strFacebook } = props.teamDetails

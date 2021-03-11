@@ -9,8 +9,7 @@ const BackHomeBtn = () => {
     return (
         <div>
             <div className="d-flex justify-content-center m-5">
-                <Button variant="primary" onClick={() => history.push('/home')}><FontAwesomeIcon icon={faArrowLeft} /> 
-                Back To Home</Button>
+                <Button variant="primary" className="shadow"onClick={() => history.push('/home')}><FontAwesomeIcon icon={faArrowLeft} /> Back To Home</Button>
             </div>
         </div>
     );
