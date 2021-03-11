@@ -11,7 +11,7 @@ const TeamsCard = (props) => {
     return (
         <div className="col-lg-4 col-md-6 col-sm-12 my-3">
             {/* <Card style={{ width: '18rem' }}>  */}
-            <Card className="shadow" >
+            <Card className="shadow">
                 {/* <div style={{width='50%',}}> */}
                 <Card.Img variant="top" src={strTeamBadge} style={{ padding:'1em',margin: 'auto', width: '50%' }} />
                 <Card.Body className="text-center">

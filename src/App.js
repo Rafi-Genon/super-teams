@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import TeamDetails from './Components/TeamDetails/TeamDetails';
+import Footer from './Components/Footer/Footer';
+import NoMatch from './Components/NoMatch/NoMatch';
 function App() {
   return (
     <div>
@@ -25,9 +27,10 @@ function App() {
           </Route>
 
           <Route path='*'>
-            <p>404 mc nai ga</p>
+            <NoMatch></NoMatch>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

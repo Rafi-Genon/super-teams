@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Home.css'
 import TeamsCard from '../TeamsCard/TeamsCard';
 
 const Home = () => {
@@ -12,9 +13,9 @@ const Home = () => {
     return (
         <div className="bg-color">
             <div className="bg-img d-flex align-items-center justify-content-center">
-                <h1 className="text-white">Super Teams</h1>
+                <h1 id="lead-title">Super Teams</h1>
             </div>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     {
                         teams.map(team => <TeamsCard team={team} key={team.idTeam}></TeamsCard>)
