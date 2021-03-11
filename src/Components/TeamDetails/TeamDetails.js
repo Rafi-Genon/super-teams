@@ -26,8 +26,7 @@ const TeamDetails = () => {
 
     return (
         <div className="bg-color">
-            <img src={strTeamBanner} alt="" />
-            <div className="bg-img">
+            <div className="img-fluid" style={{backgroundRepeat: 'no-repeat',backgroundSize: 'cover', width: "100%", height:' auto', backgroundImage: `url(${strTeamBanner})`}}>
                 <div className="team-badge">
                     <img src={strTeamBadge} alt="" />
                 </div>

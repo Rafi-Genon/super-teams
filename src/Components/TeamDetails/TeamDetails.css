@@ -1,6 +1,4 @@
 .bg-color{
-    /* background-color: rgb(14, 10, 42); */
-    /* background-color: rgba(238, 130, 238, 0.596); */
     background-color: rgb(255, 255, 0);
 }
 .team-badge{
@@ -18,18 +16,12 @@
 }
 .team-profile{
     background-color: rgb(58, 66, 255);
-    /* padding: 2em; */
-    /* margin: auto; */
-    /* margin-top: 2em; */
     border-radius: 1em;
     width: 90%;
 }
 .team-info{
     color: white;
 }
-/* .team-image{
-    width: 30%;
-} */
 img{
     width: 100%;
 }
