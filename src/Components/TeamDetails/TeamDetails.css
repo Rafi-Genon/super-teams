@@ -1,18 +1,10 @@
-.bg-color{
+.team-details-container{
     background-color: #bbff00bd;
 }
 .team-badge{
     width: 200px;
     margin: auto;
     line-height:350px ;
-}
-.bg-img{
-    height: 350px;
-    background-image: url("../../Images/bg.jpg");
-    width: 100%; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
 }
 .team-profile{
     background-color: rgb(58, 66, 255);

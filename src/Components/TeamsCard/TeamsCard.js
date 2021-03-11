@@ -2,11 +2,16 @@ import { Button, Card } from 'react-bootstrap';
 import React from 'react';
 import { useHistory } from 'react-router';
 
+// font awsome imported
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const TeamsCard = (props) => {
+    
+    // destructuring data from object
     const { idTeam, strSport, strTeamBadge, strTeam } = props.team
+    
+    // useHistory hook for changeing url
     const history = useHistory()
     return (
         <div className="col-lg-4 col-md-6 col-sm-12 my-3">

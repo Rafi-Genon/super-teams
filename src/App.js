@@ -1,10 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+// imported react router data
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+
+// imported component here down below
 import Home from './Components/Home/Home';
 import TeamDetails from './Components/TeamDetails/TeamDetails';
 import Footer from './Components/Footer/Footer';

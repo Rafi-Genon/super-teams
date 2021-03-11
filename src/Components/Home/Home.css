@@ -1,3 +1,7 @@
+.home-container{
+    background-color: #bbff00bd;
+    padding-bottom: 40px;
+}
 #lead-title{
 font-size: 60px;
 color: rgb(255, 255, 255);
@@ -5,4 +9,12 @@ font-weight: bold;
 background-color: rgba(0, 0, 255, 0.384);
 border-radius: 0.25em;
 padding: 0.3em;
+}
+.bg-img{
+    height: 350px;
+    background-image: url("../../Images/bg.jpg");
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
